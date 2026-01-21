@@ -122,3 +122,25 @@ def plot_dataframe(df):
     plt.title("Time Series Data")
     plt.show()
     print("Plotting completed.")
+
+def create_feature_engineered_df(df, window_size):
+    """
+    Create a feature-engineered DataFrame from the original time series data.
+    
+    Args:
+        df: pandas DataFrame with time series data
+        window_size: Window size for rolling calculations
+
+    Returns:
+        pandas DataFrame with additional features for analysis like rolling averages, standard deviations, etc.
+    """
+    fe_df = df.copy()
+    
+    #  rolling mean and std
+    fe_df['rolling_mean'] = fe_df.iloc[:, 0].rolling(window=window_size).mean()
+    fe_df['rolling_std'] = fe_df.iloc[:, 0].rolling(window=window_size).std()
+    
+    # Add more features as needed
+
+    return fe_df
+
