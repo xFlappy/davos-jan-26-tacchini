@@ -29,3 +29,41 @@ Remember to add the `.env` file in `.gitignore`
 
 - if env already exists and you changed the file
 `conda env update -f environment.yml --prune`
+
+
+## 3. Setup the Ollama LLM
+
+We need to install Ollama and pull the wanted LLM in order to have a chatbot in our project. To do that simply follow those instructions:
+
+1. **Install Ollama**:
+
+    **On Mac:**
+   ```bash
+   # Download and install from https://ollama.ai/download
+   # Or use Homebrew:
+   brew install ollama
+   ```
+
+   **On Linux**
+    ```bash
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
+2. **Start Ollama server**
+    ```bash
+    ollama serve
+    ```
+
+3. **Pull LLaMA 3.1 model**
+    ```bash
+    ollama pull llama3.1:8b
+    ```
+    Then check that the model is installed:
+    ```bash
+    ollama list
+    ```
+    (Optionally) Test the model
+    ```bash
+    ollama run llama3.1:8b "Hello, how are you?"
+    ```
+
+
