@@ -13,3 +13,6 @@ venv/
 
 # Outputs
 /result/
+
+# VS code settings
+.vscode/
