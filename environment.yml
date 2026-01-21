@@ -27,3 +27,4 @@ dependencies:
     - black
     - rich
     - matplotlib-inline
+    - ollama
