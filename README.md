@@ -1,4 +1,4 @@
-# [Project Name]
+# Challenge 3: Energy Market Signal Intelligence Agent
 
 > Brief one-line description of your project
 
@@ -12,7 +12,7 @@
 
 ## Problem Statement
 
-**Challenge:** [Challenge 1 or 2]
+**Challenge 3:** 
 
 [Briefly describe the problem you're solving]
 
