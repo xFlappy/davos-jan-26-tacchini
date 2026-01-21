@@ -12,12 +12,19 @@ It is devided in 3 parts: data ingestion, signal analysis, user interface
 
 - [x] .env file creation and setup
 - [x] conda environment setup
-- [ ] test the API and get some test data to pandas dataframes
-- [ ] write a script which can be easily called to import a specific dataframe
+- [x] test the API and get some test data to pandas dataframes
+- [x] write a script which can be easily called to import a specific dataframe
+- [ ] write functions to import a lot more data in one single dataframe
+- [ ] optimize usability of code and functions
+- [ ] better understand how to use the predictions of the price for analysis
 
 
 
 ## Signal Analysis
 
+- [ ] start to extract simple statistical information
+
 
 ## User Interface
+
+- [ ] decide how to structure the user interface and chat
