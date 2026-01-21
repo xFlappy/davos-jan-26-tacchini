@@ -1,0 +1,29 @@
+name: hackathon-energy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - plotly
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - requests
+  - tqdm
+  - nodejs      # useful for some JupyterLab extensions
+  - pip:
+    - volue-insight-timeseries==1.2.0
+    - python-dotenv==1.0.1
+    - jupyterlab-git
+    - black
+    - rich
+    - matplotlib-inline

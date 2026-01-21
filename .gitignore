@@ -1,0 +1,15 @@
+# Ignore local environment files with secrets
+.env
+.env.local
+
+# Python / notebook artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+
+# Outputs
+/result/
